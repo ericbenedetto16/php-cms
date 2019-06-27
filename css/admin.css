@@ -1,0 +1,199 @@
+.admin-wrapper {
+  width: 80%;
+  align-content: center;
+}
+
+.quickaction-wrapper {
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid #d9dde2;
+}
+
+ form.quickaction {
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.quickaction button {
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: auto;
+  height: 30px;
+}
+
+.quickaction button:hover {
+  cursor: pointer;
+}
+
+.quickaction textarea {
+  resize: none;
+  margin-right: 30px;
+  width: 80%;
+  height: 100px;
+}
+
+.login-form {
+  margin: 0 auto;
+  background: red;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.login-form form{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form h1 {
+  position: absolute;
+  top: 10%;
+}
+
+.login-form input {
+  border: none;
+  background: #d9dde2;
+  color: #000;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.login-form button {
+  width: 70px;
+}
+
+form.new-post {
+    width: 80%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.new-post input {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+.new-post textarea {
+  padding: 5px;
+  resize: none;
+  margin-right: 30px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.new-post button {
+  align-self: center;
+  width: 70px;
+  height: 30px;
+}
+
+.post-container {
+  margin: 20px 10px;
+}
+
+.post-div {
+  padding: 40px 0;
+}
+
+form.edit-post {
+  margin-top: 20px;
+  width: 80%;
+  height: 80%;
+  align-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.edit-post input {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+.edit-post textarea {
+  padding: 5px;
+  resize: none;
+  margin-right: 30px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.edit-post button {
+  align-self: center;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 70px;
+  height: 30px;
+}
+
+section.images {
+  margin: 20px 0;
+}
+
+.delete-img button {
+  align-self: center;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100px;
+  height: 30px;
+}
+
+a.upload-img-button {
+  align-self: center;
+  line-height: 1.7em;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 130px;
+  height: 30px;
+}

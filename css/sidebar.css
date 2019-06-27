@@ -1,0 +1,68 @@
+aside.sidebar {
+  margin: 5px 0;
+  padding: 0 25px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 300px;
+  max-height: 1235px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background: #d9dde2;
+}
+
+aside.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+section.testimonial {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  border-bottom: 2px solid #ff1414;
+}
+
+article.testimonial-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.testimonial-container img {
+  align-self: flex-start;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.testimonial-container p {
+  margin: 5px 0;
+}
+
+section.pay-dues {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+section.pay-dues h2 {
+  text-align: center;
+}
+
+section.pay-dues p {
+  padding: 20px 45px;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+@media (max-width: 920px) {
+  aside.sidebar {
+    display: none;
+  }
+}
